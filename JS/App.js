@@ -1,7 +1,7 @@
 
 var socket = io();
 
-var name = getQueryVariable("name") || "HarikaKalidindi";
+var name = getQueryVariable("name") || "sudeerkumar";
 var room = getQueryVariable("room") || "No Room Selected";
 
 $(".room-title").text(room);
